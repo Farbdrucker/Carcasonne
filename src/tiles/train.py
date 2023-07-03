@@ -119,5 +119,5 @@ def train(annotation_fname: Path, checkpoint_dir: Path = None):
     model.save(checkpoint_dir)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app()

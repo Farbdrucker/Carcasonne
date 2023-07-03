@@ -13,7 +13,6 @@ def imshow(image: np.ndarray, window_name: str = "image", wait_key: int = 200):
     cv2.waitKey(wait_key)
 
 
-
 def rotate90(img: np.ndarray) -> np.ndarray:
     return cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
 
