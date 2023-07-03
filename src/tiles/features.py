@@ -2,9 +2,9 @@ from typing import List
 
 import numpy as np
 
-from tiles.border import TileBorder
-from utils.func import flatten
-from utils.image import rotate270, rotate180, rotate90
+from src.tiles.border import TileBorder
+from src.utils.func import flatten
+from src.utils.image import rotate270, rotate180, rotate90
 
 
 def get_top_feature(img: np.ndarray) -> np.ndarray:

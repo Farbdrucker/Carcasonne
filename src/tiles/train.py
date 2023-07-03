@@ -7,18 +7,17 @@ from sklearn.metrics import confusion_matrix, balanced_accuracy_score
 import random
 import numpy as np
 from dataclasses import dataclass
-from functools import lru_cache
 from pathlib import Path
 from typing import Tuple, List, Dict
 from sklearn import svm
 from typer import Typer
 
 
-from rlogging import log
-from tiles.border import TileBorder
-from tiles.features import get_border_classes
-from tiles.model import Classifier
-from utils.image import imread
+from src.rlogging import log
+from src.tiles.border import TileBorder
+from src.tiles.features import get_border_classes
+from src.tiles.model import Classifier
+from src.utils.image import imread
 
 app = Typer()
 
@@ -90,7 +89,7 @@ class TrainableModel(Classifier):
 
     def save(self, checkpoint_fname: Path):
         log(f"saving model to {checkpoint_fname}")
-        from joblib import dump, load
+        from joblib import dump
 
         dump(self.clf, checkpoint_fname)
 

@@ -6,8 +6,8 @@ from typing import Dict, List
 
 from typer import Typer
 
-from tiles.border import TileBorder, border_acronym
-from utils.image import imread, imshow
+from src.tiles.border import TileBorder, border_acronym
+from src.utils.image import imread, imshow
 
 app = Typer()
 

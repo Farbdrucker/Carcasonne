@@ -1,10 +1,10 @@
 from typing import List
 
-from tiles.border import TileBorder, transform_border_arrays
+from src.tiles.border import TileBorder, transform_border_arrays
 
 import numpy as np
 
-from tiles.features import get_features_from_tiles, get_border_classes
+from src.tiles.features import get_features_from_tiles, get_border_classes
 
 
 class Classifier:
