@@ -2,6 +2,8 @@
 Since more then 15 years I wanted to create a complete rectangle out of tiles based of the germen board game called **Carcasonne** after the french city with its famous castle.
 
 This project should end up helping me in succeeding my goal.
+
+See also [this](https://github.com/tsaglam/Carcassonne) implementation of the game. The repo also offers some example [tiles](https://github.com/tsaglam/Carcassonne/tree/master/src/main/resources/tiles).
 ## Install
 Create a new environment
 
@@ -29,3 +31,5 @@ python tiles/annotate.py PATH/TO/YOUR/CARCASONNE/TILES/{...}.png
 ```commandline
 python tiles/train.py PATH/TO/YOUR/CARCASONNE/TILES/annotation.json
 ```
+
+##
