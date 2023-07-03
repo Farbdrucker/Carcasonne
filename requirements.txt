@@ -1,6 +1,7 @@
 black
 rich
-sklearn
 numpy
-opencv-pytho
+opencv-python
+scikit-learn
+matplotlib
 typer==0.9.0
