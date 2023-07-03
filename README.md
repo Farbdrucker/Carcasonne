@@ -12,15 +12,20 @@ activate your env
 ```commandline
 conda activate carcasonne
 ```
+
+move to source directoy
+```commandline
+cd src
+```
 ## Tile Classifier
 In order to now which tile can connect to which tile in order to full fill the game rules I created a simple classifier which will classify the border of each tile accordingly.
 ### Create a Dataset
 run the annotation tool
 ```commandline
-(carcasonne) python tiles/annotate.py PATH/TO/YOUR/CARCASONNE/TILES/{...}.png
+python tiles/annotate.py PATH/TO/YOUR/CARCASONNE/TILES/{...}.png
 ```
 
 ### Train a Classifier
 ```commandline
-(carcasonne) python tiles/train.py PATH/TO/YOUR/CARCASONNE/TILES/annotation.json
+python tiles/train.py PATH/TO/YOUR/CARCASONNE/TILES/annotation.json
 ```
