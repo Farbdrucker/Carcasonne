@@ -1,0 +1,6 @@
+black
+rich
+sklearn
+numpy
+opencv-pytho
+typer==0.9.0
