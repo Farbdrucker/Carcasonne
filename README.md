@@ -20,7 +20,7 @@ move to source directoy
 cd src
 ```
 ## Tile Classifier
-In order to now which tile can connect to which tile in order to full fill the game rules I created a simple classifier which will classify the border of each tile accordingly.
+In order to know which tile can connect to which tile in order to full fill the game rules I created a simple classifier which will classify the border of each tile accordingly.
 ### Create a Dataset
 run the annotation tool
 ```commandline
